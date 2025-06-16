@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Guest List App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Guest List</h1>
+
+  <!--form to capture guests details-->
+  <form id="guestForm">
+    <label for="guestName">Guest Name</label>
+    <input type="text" id="guestName" required />
+    
+    <label for="category">Relation:</label>
+    <select id="category" required>
+      <option value="Friend">Friend</option>
+      <option value="Family">Family</option>
+      <option value="Colleague">Colleague</option>
+    </select>
+
+    <button type="submit">Add Guest</button>
+  </form>
+  
+<!--guests display table-->
+  <table id="guestTable">
+    <thead>
+      <tr>
+        <th>Guest's Name</th>
+        <th>RSVP</th>
+        <th>Relation</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #e9e5e5;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input, select, button {
+  margin-right: 10px;
+  padding: 6px;
+  font-size: 14px;
+}
+
+table {
+  width: 100%;
+  max-width: 900px;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #999;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #f0f0f0;
+}
+
+button {
+  padding: 4px 10px;
+  cursor: pointer;
+}
+
+/* Category different colors*/
+.row-Friend {
+  background-color: #4548ee; 
+}
+
+.row-Family {
+  background-color: #e6f7ff; 
+}
+
+.row-Colleague {
+  background-color: #fff3e6; 
+}
+
+tr {
+  transition: background-color 0.3s ease;
+}
+
